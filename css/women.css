@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica;
+    font-size: 14px;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3em;
+}
+
+.logo img {
+    width: 25rem;
+    padding-top: 1em;
+}
+
+
+/* nav header */
+.nav-left {
+    float: left;
+    width: 20%;
+    margin-top: .01em;
+    margin-left: 2.5em;
+}
+
+.nav-left ul li {
+    list-style: none;
+}
+
+.nav-left ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .75em;
+    font-weight: 600;
+}
+
+.nav-right {
+    float: right;
+    text-align: right;
+    width: 20%;
+    margin-top: .01em;
+    margin-right: 2.5em;
+}
+
+.nav-right ul li {
+    list-style: none;
+}
+
+.nav-right ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .75em;
+    font-weight: 600;
+}
+
+#search-icon {
+    position: relative;
+    top: .3em;
+    right: .3em;
+}
+
+#shopping-bag-icon {
+    padding-top: 2em;
+}
+
+/* content */
+.content {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.content p {
+    margin-left: 31em;
+    margin-right: 31em;
+}
+
+.content img {
+    width: 85%;
+}
+
+.text-content {
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+
+/* filter bar */
+
+.filter {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter span {
+    font-size: .85em;
+    font-weight: 600;
+}
+
+.filter a {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.filter-bar hr {
+    margin: 1em 8em 0em 8em;
+}
+
+
+/* product */
+
+.product-grid {
+    clear: both;
+    padding-bottom: 3em;
+}
+
+.product-image {
+    height: 430px;
+    width: 248px;
+}
+
+.product-contain {
+    text-align: center;
+    width: 248px;
+}
+
+.product-grid ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.product-grid ul li {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.product-contain h4 {
+    font-weight: 600;
+    padding-bottom: .2em;
+}
+
+.product-contain p{
+    font-size: 1.1em;
+    padding-bottom: .5em;
+}
+
+.product-contain a {
+    color: #000;
+    text-decoration: none;
+}
+
+p.colour {
+    font-size: .9em;
+}
+
+
+/* product scarf */
+
+#scarf01 {
+    background: url(../image/product/scarf-black-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#scarf02 {
+    background: url(../image/product/scarf-beige-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#scarf03 {
+    background: url(../image/product/scarf-camel-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#scarf04 {
+    background: url(../image/product/scarf-white-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* product bag */
+
+#bag01 {
+    background: url(../image/product/bag-clay-green-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bag02 {
+    background: url(../image/product/bag-sea-side-blue-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bag03 {
+    background: url(../image/product/bag-black-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bag04 {
+    background: url(../image/product/case-black-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* promote anagram collection */
+
+.promote-left {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.promote-left img {
+    width: 85%;
+}
+
+.promote-right {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.promote-right ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 9em;
+    margin-left: 3em;
+}
+
+.promote-right ul li h4 {
+    font-weight: 600;
+    margin: 0 3em
+}
+
+.promote-right ul li img {
+    width: 190px;
+}
+
+ul.second-row {
+    margin-top: 3em;
+}
+
+ul.third-row {
+    margin-top: 3em;
+}
+
+ul.forth-row {
+    margin-top: 3em;
+}
+
+/* product earrings and pendant */
+
+#earrings-silver {
+    background: url(../image/product/earrings-silver-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pendant-silver {
+    background: url(../image/product/pendant-silver-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#earrings-gold {
+    background: url(../image/product/earrings-gold-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pendant-gold {
+    background: url(../image/product/pendant-gold-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* product blouse */
+
+#blouse01 {
+    background: url(../image/product/blouse-toffee-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blouse02 {
+    background: url(../image/product/blouse-indigo-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blouse03 {
+    background: url(../image/product/blouse-ivory-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blouse04 {
+    background: url(../image/product/blouse-grey-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* theme */
+
+.image-theme-left {
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-bottom: 1.5em;
+}
+
+.image-theme-left img{
+    width: 80%;
+    margin-right: 1em;
+}
+
+.image-theme-right{
+    float: right;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 1.5em;
+}
+
+.image-theme-right img{
+    width: 80%;
+    margin-left: 1em;
+}
+
+/* product puzzle bag */
+
+#puzzle-bag-01 {
+    background: url(../image/product/puzzle-tan-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#puzzle-bag-02 {
+    background: url(../image/product/puzzle-warm-dessert-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#puzzle-bag-03 {
+    background: url(../image/product/puzzle-black-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#puzzle-bag-04 {
+    background: url(../image/product/puzzle-bright-ochre-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* product runner */
+
+#runner01 {
+    background: url(../image/product/runner-brown-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#runner02 {
+    background: url(../image/product/runner-green-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#runner03 {
+    background: url(../image/product/runner-pink-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#runner04 {
+    background: url(../image/product/runner-white-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* product wallet */
+#wallet01 {
+    background: url(../image/product/wallet-tan-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wallet02 {
+    background: url(../image/product/wallet-tan-vertical-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wallet03 {
+    background: url(../image/product/wallet-black-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wallet04 {
+    background: url(../image/product/wallet-black-vertical-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* product top */
+#top01 {
+    background: url(../image/product/top-white-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top02 {
+    background: url(../image/product/top-black-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top03 {
+    background: url(../image/product/crop-white-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top04 {
+    background: url(../image/product/crop-black-01.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* button */
+.see-more-btn {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.see-more-btn a{
+    border: 1px solid #dadada;
+    text-decoration: none;
+    color: #000;
+    padding: 1.75em 21em;
+    font-size: .85em;
+}
+
+.see-more-btn a:hover{
+    border: 3px solid #dadada;
+}
+
+/* reassurance */
+
+.reassurance-content {
+    margin: 7em 10em 3em;
+}
+
+.reassurance-content ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-bottom: 4em;
+}
+
+.reassurance-content ul li {
+    width: 280px;
+}
+
+.reassurance-content ul li h4 {
+    font-weight: 600;
+}
+
+.reassurance-content ul li p {
+    font-size: .9em;
+}
+
+.reassurance-content ul li img {
+    float: left;
+    margin-right: 1em;
+}
+
+
+/* footer */
+
+footer {
+    font-weight: 300;
+}
+
+.footer-top {
+    display: flex;
+    padding-bottom: 6em;
+    background-color: #f8f8f8;
+}
+
+.footer-logo {
+    width: 13%;
+    margin-top: 1.5em;
+    margin-left: 5em;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-items {
+    margin-top: 3.5em;
+    display: flex;
+    margin-left: 1em;
+}
+
+.link-items {
+    margin-left: 3em;
+}
+
+.footer-items ul {
+    list-style: none;
+}
+
+.footer-items ul li a {
+    color: #000;
+    font-size: .85em;
+    text-decoration: none;
+}
+
+.footer-top-right {
+    margin-top: 3.5em;
+    width: 25%;
+    margin-left: 16em;
+}
+
+.footer-top-right p {
+    font-size: .9em;
+    font-weight: 400;
+}
+
+.footer-top-right p b {
+    font-weight: 600;
+}
+
+.footer-top-right p a {
+    font-size: 1em;
+    color: #000;
+}
+
+form {
+    margin-top: .85em;
+}
+
+label {
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-right: .5em;
+}
+
+#email {
+    border: 0px;
+    border-bottom: 1px solid #a6a6a6;
+    width: 100%;
+    padding: 0 1em .8em 1em;
+    background-color: #f8f8f8;
+}
+
+#ok-btn {
+    background-color: #666667;
+    color: #fff;
+    border: 0px;
+    font-size: .85em;
+    padding: .3em 1.2em;
+    font-weight: 500;
+    float: right;
+    position: relative;
+    top: 2em; 
+}
+
+.footer-bottom {
+    padding: 1em 0;
+    background-color: #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom a {
+    color: #000;
+    font-size: .85em;
+}
+
+
+.footer-bottom-left {
+    margin-left: 6em;
+}
+
+.footer-bottom-left img {
+    position: relative;
+    top: .3em;
+}
+
+.footer-bottom-right {
+    margin-right: 12em;
+}
+
+.footer-bottom-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-bottom-right ul li a {
+    margin-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hover */
+
+#scarf01:hover {
+    cursor: pointer;
+    background: url(../image/product/scarf-black-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#scarf02:hover {
+    cursor: pointer;
+    background: url(../image/product/scarf-beige-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#scarf03:hover {
+    cursor: pointer;
+    background: url(../image/product/scarf-camel-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#scarf04:hover {
+    cursor: pointer;
+    background: url(../image/product/scarf-white-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bag01:hover{
+    cursor: pointer;
+    background: url(../image/product/bag-clay-green-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bag02:hover{
+    cursor: pointer;
+    background: url(../image/product/bag-sea-side-blue-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bag03:hover{
+    cursor: pointer;
+    background: url(../image/product/bag-black-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bag04:hover{
+    cursor: pointer;
+    background: url(../image/product/case-black-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#earrings-silver:hover {
+    cursor: pointer;
+    background: url(../image/product/earrings-silver-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pendant-silver:hover {
+    cursor: pointer;
+    background: url(../image/product/pendant-silver-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#earrings-gold:hover {
+    cursor: pointer;
+    background: url(../image/product/earrings-gold-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pendant-gold:hover {
+    cursor: pointer;
+    background: url(../image/product/pendant-gold-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blouse01:hover {
+    cursor: pointer;
+    background: url(../image/product/blouse-toffee-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blouse02:hover {
+    cursor: pointer;
+    background: url(../image/product/blouse-indigo-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blouse03:hover {
+    cursor: pointer;
+    background: url(../image/product/blouse-ivory-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blouse04:hover {
+    cursor: pointer;
+    background: url(../image/product/blouse-grey-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#puzzle-bag-01:hover {
+    cursor: pointer;
+    background: url(../image/product/puzzle-tan-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#puzzle-bag-02:hover {
+    cursor: pointer;
+    background: url(../image/product/puzzle-warm-dessert-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#puzzle-bag-03:hover {
+    cursor: pointer;
+    background: url(../image/product/puzzle-black-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#puzzle-bag-04:hover {
+    cursor: pointer;
+    background: url(../image/product/puzzle-bright-ochre-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#runner01:hover {
+    cursor: pointer;
+    background: url(../image/product/runner-brown-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#runner02:hover {
+    cursor: pointer;
+    background: url(../image/product/runner-green-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#runner03:hover {
+    cursor: pointer;
+    background: url(../image/product/runner-pink-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#runner04:hover {
+    cursor: pointer;
+    background: url(../image/product/runner-white-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wallet01:hover {
+    cursor: pointer;
+    background: url(../image/product/wallet-tan-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wallet02:hover {
+    cursor: pointer;
+    background: url(../image/product/wallet-tan-vertical-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wallet03:hover {
+    cursor: pointer;
+    background: url(../image/product/wallet-black-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wallet04:hover {
+    cursor: pointer;
+    background: url(../image/product/wallet-black-vertical-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top01:hover {
+    cursor: pointer;
+    background: url(../image/product/top-white-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top02:hover {
+    cursor: pointer;
+    background: url(../image/product/top-black-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top03:hover {
+    cursor: pointer;
+    background: url(../image/product/crop-white-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top04:hover {
+    cursor: pointer;
+    background: url(../image/product/crop-black-02.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-items ul li a:hover {
+    text-decoration: underline;
+}
