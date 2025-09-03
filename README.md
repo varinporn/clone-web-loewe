@@ -6,6 +6,7 @@ It was created for practice and educational purposes to strengthen front-end dev
 
 ## Features
 - Content sections (e.g., products, services, or articles depending on the original website).
+- Pixel-perfect design close to the original site.
 
 ## Technologies
 - HTML
